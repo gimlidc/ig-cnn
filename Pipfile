@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+
+[packages]
+numpy = "*"
+scipy = "*"
+tensorflow = "*"
+termcolor = "*"
+matplotlib = "*"
+pyyaml = "*"
+opencv-python = "*"
+pydot = "*"
+sklearn = "*"
+scikit-learn = "*"
+psd_tools = "*"
+pillow = "*"
+jsonschema = "*"
+
+[requires]
+python_version = "3.7"

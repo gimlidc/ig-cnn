@@ -3,6 +3,14 @@ ig-cnn
 
 Information gain toolbox for multimodal dataset processing
 
+### IGRE test
+```bash
+git clone git@github.com:gimlidc/ig-cnn
+cd ig-cnn
+make sync_data_from_s3
+pipenv run python src/models/igre-test.py
+```
+
 Project Organization
 ------------
 

@@ -1,3 +1,10 @@
+PyYAML
+jsonschema
+tensorflow
+matplotlib
+termcolor
+numpy
+scipy
 # local package
 -e .
 
