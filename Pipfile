@@ -20,6 +20,7 @@ scikit-learn = "*"
 psd_tools = "*"
 pillow = "*"
 jsonschema = "*"
+pipenv = "*"
 
 [requires]
 python_version = "3.6"

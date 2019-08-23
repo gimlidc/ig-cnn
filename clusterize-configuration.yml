@@ -25,7 +25,7 @@ general:
 taskType:
   type: PYTHON
   command: |-
-    source env.sh && pipenv run python src/models/igre-test.py -c ${CONFIG_FILE} -x ${X} -y ${Y} -o ../outputs/out_${X}-${Y}.yaml
+    source env.sh && pipenv run python -m src.models.igre-test -c ${CONFIG_FILE} -x ${X} -y ${Y} -o ../outputs/out_${X}-${Y}.yaml
 resources:
   profile: 'CUSTOM'
   resourceType: 'CPU'
